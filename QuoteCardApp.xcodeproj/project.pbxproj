@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846D18A827AA4CDD00E63FBE /* QuoteCardAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D18A727AA4CDD00E63FBE /* QuoteCardAppApp.swift */; };
+		846D18AA27AA4CDD00E63FBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D18A927AA4CDD00E63FBE /* ContentView.swift */; };
+		846D18AC27AA4CDE00E63FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846D18AB27AA4CDE00E63FBE /* Assets.xcassets */; };
+		846D18AF27AA4CDE00E63FBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846D18AE27AA4CDE00E63FBE /* Preview Assets.xcassets */; };
+		846D18BB27AA4D2500E63FBE /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 846D18BA27AA4D2500E63FBE /* quotes.json */; };
+		846D18BD27AA4DC500E63FBE /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D18BC27AA4DC500E63FBE /* Quote.swift */; };
+		846D18BF27AA4E2500E63FBE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D18BE27AA4E2500E63FBE /* DataService.swift */; };
+		846D18C127AA4FE100E63FBE /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D18C027AA4FE100E63FBE /* QuoteModel.swift */; };
+		84F6855727AB7CAE00B2BA63 /* QuoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F6855627AB7CAE00B2BA63 /* QuoteDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		846D18A427AA4CDD00E63FBE /* QuoteCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846D18A727AA4CDD00E63FBE /* QuoteCardAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCardAppApp.swift; sourceTree = "<group>"; };
+		846D18A927AA4CDD00E63FBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		846D18AB27AA4CDE00E63FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846D18AE27AA4CDE00E63FBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		846D18BA27AA4D2500E63FBE /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		846D18BC27AA4DC500E63FBE /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		846D18BE27AA4E2500E63FBE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		846D18C027AA4FE100E63FBE /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		84F6855627AB7CAE00B2BA63 /* QuoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846D18A127AA4CDD00E63FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846D189B27AA4CDD00E63FBE = {
+			isa = PBXGroup;
+			children = (
+				846D18A627AA4CDD00E63FBE /* QuoteCardApp */,
+				846D18A527AA4CDD00E63FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846D18A527AA4CDD00E63FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846D18A427AA4CDD00E63FBE /* QuoteCardApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846D18A627AA4CDD00E63FBE /* QuoteCardApp */ = {
+			isa = PBXGroup;
+			children = (
+				846D18A727AA4CDD00E63FBE /* QuoteCardAppApp.swift */,
+				846D18B927AA4D0500E63FBE /* Data */,
+				846D18B827AA4CFD00E63FBE /* DataService */,
+				846D18B727AA4CF800E63FBE /* Models */,
+				846D18B627AA4CE900E63FBE /* ViewModels */,
+				846D18B527AA4CE300E63FBE /* Views */,
+				846D18AB27AA4CDE00E63FBE /* Assets.xcassets */,
+				846D18AD27AA4CDE00E63FBE /* Preview Content */,
+			);
+			path = QuoteCardApp;
+			sourceTree = "<group>";
+		};
+		846D18AD27AA4CDE00E63FBE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				846D18AE27AA4CDE00E63FBE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		846D18B527AA4CE300E63FBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				846D18A927AA4CDD00E63FBE /* ContentView.swift */,
+				84F6855627AB7CAE00B2BA63 /* QuoteDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		846D18B627AA4CE900E63FBE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				846D18C027AA4FE100E63FBE /* QuoteModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		846D18B727AA4CF800E63FBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				846D18BC27AA4DC500E63FBE /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		846D18B827AA4CFD00E63FBE /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				846D18BE27AA4E2500E63FBE /* DataService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		846D18B927AA4D0500E63FBE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				846D18BA27AA4D2500E63FBE /* quotes.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846D18A327AA4CDD00E63FBE /* QuoteCardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846D18B227AA4CDE00E63FBE /* Build configuration list for PBXNativeTarget "QuoteCardApp" */;
+			buildPhases = (
+				846D18A027AA4CDD00E63FBE /* Sources */,
+				846D18A127AA4CDD00E63FBE /* Frameworks */,
+				846D18A227AA4CDD00E63FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuoteCardApp;
+			productName = QuoteCardApp;
+			productReference = 846D18A427AA4CDD00E63FBE /* QuoteCardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846D189C27AA4CDD00E63FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					846D18A327AA4CDD00E63FBE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 846D189F27AA4CDD00E63FBE /* Build configuration list for PBXProject "QuoteCardApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846D189B27AA4CDD00E63FBE;
+			productRefGroup = 846D18A527AA4CDD00E63FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846D18A327AA4CDD00E63FBE /* QuoteCardApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846D18A227AA4CDD00E63FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846D18AF27AA4CDE00E63FBE /* Preview Assets.xcassets in Resources */,
+				846D18AC27AA4CDE00E63FBE /* Assets.xcassets in Resources */,
+				846D18BB27AA4D2500E63FBE /* quotes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846D18A027AA4CDD00E63FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F6855727AB7CAE00B2BA63 /* QuoteDetailView.swift in Sources */,
+				846D18C127AA4FE100E63FBE /* QuoteModel.swift in Sources */,
+				846D18AA27AA4CDD00E63FBE /* ContentView.swift in Sources */,
+				846D18BD27AA4DC500E63FBE /* Quote.swift in Sources */,
+				846D18A827AA4CDD00E63FBE /* QuoteCardAppApp.swift in Sources */,
+				846D18BF27AA4E2500E63FBE /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		846D18B027AA4CDE00E63FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846D18B127AA4CDE00E63FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846D18B327AA4CDE00E63FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuoteCardApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = training.franklin.QuoteCardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846D18B427AA4CDE00E63FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuoteCardApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = training.franklin.QuoteCardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846D189F27AA4CDD00E63FBE /* Build configuration list for PBXProject "QuoteCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846D18B027AA4CDE00E63FBE /* Debug */,
+				846D18B127AA4CDE00E63FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846D18B227AA4CDE00E63FBE /* Build configuration list for PBXNativeTarget "QuoteCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846D18B327AA4CDE00E63FBE /* Debug */,
+				846D18B427AA4CDE00E63FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846D189C27AA4CDD00E63FBE /* Project object */;
+}

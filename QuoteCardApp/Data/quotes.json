@@ -1,0 +1,62 @@
+[
+    {
+        "person": "Carl Sagan",
+        "image": "reflect",
+        "quotes": [
+            "Science is not only compatible with spirituality; it is a profound source of spirituality.",
+            "One glance at a book and you hear the voice of another person, perhaps someone dead for 1,000 years. To read is to voyage through time.",
+            "If you wish to make an apple pie from scratch, you must first invent the universe.",
+            "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself."
+        ]
+    },
+    
+    {
+        "person": "James Clear",
+        "image": "focus",
+        "quotes": [
+            "Every action you take is a vote for the type of person you wish to become. No single instance will transform your beliefs, but as the votes build up, so does the evidence of your new identity.",
+            "You do not rise to the level of your goals. You fall to the level of your systems.",
+            "Goals are good for setting a direction, but systems are best for making progress.",
+            "Habits are the compound interest of self-improvement",
+            "Be the designer of your world and not merely the consumer of it.",
+            "Professionals stick to the schedule; amateurs let life get in the way."
+        ]
+    },
+    {
+        "person": "Jocko Willink",
+        "image": "ambition",
+        "quotes": [
+            "Discpline equals freedom.",
+            "Don’t expect to be motivated every day to get out there and make things happen. You won’t be. Don’t count on motivation. Count on Discipline.",
+            "Extreme Ownership. Leaders must own everything in their world. There is no one else to blame.",
+            "Stop researching every aspect of it and reading all about it and debating the pros and cons of it … Start doing it.",
+            "Leaders must always operate with the understanding that they are part of something greater than themselves and their own personal interests.",
+            "There is no growth in the comfort zone."
+        ]
+    },
+    {
+        "person": "Mahatma Gandhi",
+        "image": "calm",
+        "quotes": [
+            "Be the change that you wish to see in the world.",
+            "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+            "An eye for an eye will only make the whole world blind.",
+            "Happiness is when what you think, what you say, and what you do are in harmony.",
+            "Nobody can hurt me without my permission.",
+            "The best way to find yourself is to lose yourself in the service of others."
+        ]
+    },
+    {
+        "person": "Benjamin Franklin",
+        "image": "reflect2",
+        "quotes": [
+            "There never was a good war or a bad peace.",
+            "Well done is better than well said.",
+            "Lost Time is never found again.",
+            "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+            "An investment in knowledge pays the best interest.",
+            "By failing to prepare, you are preparing to fail."
+        ]
+    }
+
+]
